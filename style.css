@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    background-color: #004aad;
+    color: white;
+    padding: 10px 0;
+    animation: slideDown 1s ease-out;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff79c6;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #004aad;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #0055ff;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+  
+  .main-banner {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    animation: zoomIn 1.5s ease-in-out;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-text h1 {
+    font-size: 36px;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #f54291;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff79c6;
+  }
+  
+  .college-buttons {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .college-buttons h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    animation: slideUp 1s ease-out;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .college-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s;
+  }
+  
+  .college-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .raisoni {
+    background-color: #f54242;
+  }
+  
+  .ycc {
+    background-color: #42a5f5;
+  }
+  
+  .ramdevbaba {
+    background-color: #66bb6a;
+  }
+  
+  .priyadarshini {
+    background-color: #ffb74d;
+  }
+  
+  .vnit {
+    background-color: #ab47bc;
+  }
+  
+  .about-us {
+    text-align: center;
+    padding: 70px 30px;
+    background-color: #f8f8f8;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-us h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .about-columns .column {
+    flex: 1 1 30%;
+    max-width: 30%;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .about-columns .column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-columns .column h3 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .about-columns .column p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  
+  .about-us {
+    background-color: #ddd;
+  }
+  

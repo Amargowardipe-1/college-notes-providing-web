@@ -1,0 +1,165 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4ff;
+}
+
+.logo {
+    font-size: 0.1rem;
+    font-weight: bold;
+    color: #333;
+  background-color: #e0f7ff;
+  
+}
+.logo img {
+    width: 60px;
+    
+  background-color: #e0f7ff;
+}
+.body {
+  background-color: #e0f7ff;
+
+}
+.head {
+  background-color: #e0f7ff;
+
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-button {
+    padding: 8px 16px;
+    background-color: #0077b6;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #005f73;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(to right, #e0f7ff, #f0f4ff);
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    color: #0077b6;
+}
+
+.text-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.sign-up-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sign-up-button:hover {
+    background-color: #005f73;
+}
+
+/* Image Section */
+.image-section img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Icons */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.footer-icons a img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-icons a:hover img {
+    transform: scale(1.1);
+}
+.body { background: linear-gradient(to right, #e0f7ff, #f0f4ff);
+  
+}
+/* Mission and Vision Section */
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f0f4ff;
+}
+
+.mission-vision .column {
+    width: 45%;
+    text-align: center;
+}
+
+.mission-vision h2 {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.mission-vision img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title
+{
+   font-size: 3rem;
+    color: #00008B;
+}
+
