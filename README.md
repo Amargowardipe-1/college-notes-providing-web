@@ -37,7 +37,6 @@ Study-House/
 
 - HTML5
 - CSS3 (with animations)
-- JavaScript (for interactive dropdowns, if added)
 - [Optional] Bootstrap (for easier styling — not currently used)
 
 ---
